@@ -39,6 +39,6 @@ public class PercentagePanel extends JPanel {
 		myModel.addView(myTextView);
 		myModel.addView(myPieViewAndController);
 		myModel.addView(mySliderViewAndController);
-		//myModel.addView( new ConsoleView() );
+		myModel.addView( new ConsoleView() );
 	}
 }
